@@ -1,6 +1,9 @@
 # wh_06_1st_team5
 
-## 어디 살까
+## 자취 구역 추천 서비스 - 어디 살까
+---
+- 참여인원 : 장윤수, 문해성, 오요셉(팀장)
+- 프로젝트 기간 : 5/7 ~ 5/9
 ---
 ### 1. 프로젝트 개요
 ---
@@ -19,8 +22,9 @@
 - 대상 : 18세 ~ 34세의 청년층
  - 18세 ~ 34세 인구이동 현황
  - 18세 ~ 34세 전체 인구 현황
-
-#### 상세 서비스 개요
+---
+### 2. 서비스 개요
+---
 - 분위기 타입 필터링
     - 행정구역명을 기반으로 Google Custom Search API 호출
     - 감정분석, 텍스트 빈도수 분석을 통한 사용자 설정 분위기 타입으로 필터링
@@ -37,21 +41,7 @@
     - 행정구역별 게시판 운영
     - 행정구역의 분위기, 교통, 인프라 등 복합적인 평가 시스템 운영
 ---
-### 2. 기술 스택
----
-|구분|기술|
-|------|---|
-|프론트엔드|Flutter|
-|백엔드 API 서버|FastAPI|
-|DB|PostgreSQL, MongoDB|
-|파일저장소|AWS S3|
-|크롤링|Selenium, BeautifulSoup, pandas|
-|사용 API|Google Places API, Google Maps API, Google Custom Search API|
-|배포 플랫폼|Render, AWS Lightsail (초기), AWS EC2/ECS (확장 시)|
-|유저 인증|Firebase Auth|
-|스케쥴링|APScheduler|
----
-### 3. 데이터 관리
+### 3. 데이터 활용
 ---
 [User Mobile/Web App]
 
@@ -91,10 +81,25 @@
 
 [Flutter / React 앱에 시각화 및 추천결과 제공]
 
-### ERD, 테이블 정의서
+---
+### 4. ERD | 테이블 정의서
+---
 [테이블정의서.pdf](https://github.com/user-attachments/files/20114487/default.pdf)
 
 
 ![Image](https://github.com/user-attachments/assets/cb7b1ff6-1663-478e-b1e4-57ef97d779c4)
 
-
+---
+### 5. 기술 스택
+---
+|구분|기술|
+|------|---|
+|프론트엔드|Flutter|
+|백엔드 API 서버|FastAPI|
+|DB|PostgreSQL, MongoDB|
+|파일저장소|AWS S3|
+|크롤링|Selenium, BeautifulSoup, pandas|
+|사용 API|Google Places API, Google Maps API, Google Custom Search API|
+|배포 플랫폼|Render, AWS Lightsail (초기), AWS EC2/ECS (확장 시)|
+|유저 인증|Firebase Auth|
+|스케쥴링|APScheduler|
