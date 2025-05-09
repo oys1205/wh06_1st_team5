@@ -56,25 +56,37 @@
 ### 3. 데이터 관리
 ---
 [User Mobile/Web App]
+
 ↓
+
 [FastAPI Backend API]
+
 ↓
-┌────────────────────────────┐
-│      주요 백엔드 기능│
-├────────────────────────────┤
-│ 1. 회원가입, 검색 필터 저장 (PostgreSQL)│
-│ 2. 회사 주소 → 위도경도 변환 (Google Maps)│
-│ 3. 통근 다각형 생성 (Google Directions)│
-│ 4. 다각형 내 행정구역 파악 (GeoReverse API)│
-│ 5. 지역 POI/인프라 수집 (Google Places)│
-│ 6. 지역 리뷰/분위기 크롤링 (Custom Search)│
-│ 7. 실거래가 크롤링 (Selenium → Pandas → DB)│
-│ 8. 필터 조건에 맞는 지역 추천 (쿼리/분석)│
-└────────────────────────────┘
+
+[주요 백엔드 기능]
+
+1. 회원가입, 검색 필터 저장 (PostgreSQL)
+
+2. 회사 주소 → 위도경도 변환 (Google Maps)
+
+3. 통근 다각형 생성 (Google Directions)
+
+4. 다각형 내 행정구역 파악 (GeoReverse API)
+
+5. 지역 POI/인프라 수집 (Google Places)
+
+6. 지역 리뷰/분위기 크롤링 (Custom Search)
+
+7. 실거래가 크롤링 (Selenium → Pandas → DB)
+
+8. 필터 조건에 맞는 지역 추천 (쿼리/분석)
+
 ↓
+
 [PostgreSQL] ← 구조화된 데이터 (검색 기록, 실거래가 등)
 
 [MongoDB]   ← 크롤링 텍스트, 감정분석 결과, 자유 게시판 등
+
 [Firebase Storage] ← 이미지/리포트/지도 등 파일 저장
 
 [Flutter / React 앱에 시각화 및 추천결과 제공]
