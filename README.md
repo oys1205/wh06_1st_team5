@@ -1,8 +1,6 @@
 # wh_06_1st_team5
 
-# 어디 살까
----
-## 프로젝트 기획서
+## 어디 살까
 ---
 ### 1. 프로젝트 개요
 ---
@@ -93,7 +91,8 @@
 
 [Flutter / React 앱에 시각화 및 추천결과 제공]
 
-#### ERD
+### ERD
+
 ![Image](https://github.com/user-attachments/assets/cb7b1ff6-1663-478e-b1e4-57ef97d779c4)
 
 
